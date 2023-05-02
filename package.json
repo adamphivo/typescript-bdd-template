@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "dev": "nodemon src/index.ts",
+    "lint": "eslint . --ext .ts",
     "build": "tsc",
     "test": "cucumber-js --profile default"
   },
@@ -16,6 +17,7 @@
     "cucumber-tsflow": "^4.0.0-rc.7",
     "eslint": "^8.39.0",
     "nodemon": "^2.0.22",
+    "prettier": "^2.8.8",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
   },
